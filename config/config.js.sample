@@ -77,7 +77,7 @@ var config = {
 			// See 'Configuration options' for more information.
 			location: "Fort Worth, US",
 			locationID: "", //Location ID from http://bulk.openweathermap.org/sample/city.list.json.gz
-			appid: "abcde12345abcde12345abcde12345ab" //openweathermap.org API key.
+			appid: "3c7b71f8a2dd8bb77ea9ebc9687ba76d" //openweathermap.org API key.
 		}
 	},
 		{
