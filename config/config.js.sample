@@ -41,14 +41,6 @@ var config = {
 		{
 			module: "alert",
 		},
-    {
-    module: 'MMM-ethereum',
-    position: 'top_right',
-    config: {
-      updateInterval: 30000,
-      exchange: "kraken"
-    }
-  },
 		{
 			module: "updatenotification",
 			position: "top_bar"
@@ -79,7 +71,7 @@ var config = {
 			config: {
 				location: "New York",
 				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				appid: "13ba078112e4d8c5576f3b4ee7754c9b"
 			}
 		},
 		{
@@ -108,15 +100,6 @@ var config = {
 				broadcastNewsUpdates: true
 			}
 		},
-    {
-      module: 'MMM-ethereum',
-      position: 'bottom_right',
-      config: {
-        updateInterval: 30000,
-        exchange: "kraken"
-      }
-    },
-]
 	]
 };
 
