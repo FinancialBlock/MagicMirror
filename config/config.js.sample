@@ -69,9 +69,9 @@ var config = {
 			module: "currentweather",
 			position: "top_right",
 			config: {
-				location: "New York",
+				location: "Dallas",
 				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "13ba078112e4d8c5576f3b4ee7754c9b"
+				appid: "3c7b71f8a2dd8bb77ea9ebc9687ba76d"
 			}
 		},
 		{
