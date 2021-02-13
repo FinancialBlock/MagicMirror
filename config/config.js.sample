@@ -52,16 +52,19 @@ var config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "Upcoming Holidays",
 			position: "top_left",
 			config: {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"					}
+						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"	
+            customEvents: [{keyword: 'Birthday', symbol: 'fa-birthday-cake', color: 'Gold'}]
+            }
 				]
 			}
 		},
+    
 		{
 			module: "compliments",
 			position: "lower_third"
