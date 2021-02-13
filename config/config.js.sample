@@ -41,6 +41,14 @@ var config = {
 		{
 			module: "alert",
 		},
+    {
+    module: 'MMM-ethereum',
+    position: 'top_right',
+    config: {
+      updateInterval: 30000,
+      exchange: "kraken"
+    }
+  },
 		{
 			module: "updatenotification",
 			position: "top_bar"
