@@ -108,6 +108,15 @@ var config = {
 				broadcastNewsUpdates: true
 			}
 		},
+    {
+      module: 'MMM-ethereum',
+      position: 'bottom_right',
+      config: {
+        updateInterval: 30000,
+        exchange: "kraken"
+      }
+    },
+]
 	]
 };
 
