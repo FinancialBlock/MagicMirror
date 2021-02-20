@@ -99,6 +99,28 @@ var config = {
             vcgencmd: "vcgencmd"
         }
     },
+    {
+	module: "MMM-Jast",
+	position: "top_right",
+	config: {
+		maxWidth: "100%",
+		updateIntervalInSeconds: 0, // 0 = Auto calculation to get a maximum number of 500 requests per day.
+		fadeSpeedInSeconds: 3.5, // Higher value: vertical -> faster // horizontal -> slower
+		scroll: "<none, vertical, horizontal>",
+		defaultCurrency: "USD",
+		showDepotGrowth: true
+		apiKey: "05ODGIU9GQ41W9CB",
+		stocks: [
+			{ name: "BASF", symbol: "BAS.DE", quantity: 10 },
+			{ name: "SAP", symbol: "SAP.DE", quantity: 15 },
+			{ name: "Henkel", symbol: "HEN3.DE" },
+			{ name: "Alibaba", symbol: "BABA", tradeCurrency: "USD", displayCurrency: "USD" }
+		],
+		crypto: [
+			{ name: "BTC", symbol: "BTC" }
+		],
+	}
+}
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
