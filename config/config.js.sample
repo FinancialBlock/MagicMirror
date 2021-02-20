@@ -90,6 +90,15 @@ var config = {
 				appid: "YOUR_OPENWEATHER_API_KEY"
 			}
 		},
+        {
+        module: 'MMM-AlexaControl',
+        position: 'middle_center',
+        config:{
+            image: true,
+            pm2ProcessName: "mm",
+            vcgencmd: "vcgencmd"
+        }
+    },
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
